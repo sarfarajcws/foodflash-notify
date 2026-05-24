@@ -10,12 +10,15 @@ export default defineConfig({
       registerType: 'autoUpdate',
 
       manifest: {
+        id: '/',
+        scope: '/',
         name: 'FoodFlash Notify',
         short_name: 'FoodFlash',
         description: 'Food delivery notification demo app',
         theme_color: '#f3f7ff',
         background_color: '#f3f7ff',
         display: 'standalone',
+        orientation: 'portrait',
         start_url: '/',
 
         icons: [
