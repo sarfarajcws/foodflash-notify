@@ -13,7 +13,7 @@ export default defineConfig({
         name: 'FoodFlash Notify',
         short_name: 'FoodFlash',
         description: 'Food delivery notification demo app',
-        theme_color: '#2563eb',
+        theme_color: '#f3f7ff',
         background_color: '#f3f7ff',
         display: 'standalone',
         start_url: '/',

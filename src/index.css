@@ -4,6 +4,10 @@
   box-sizing:border-box;
 }
 
+html{
+  touch-action: manipulation;
+}
+
 body{
   font-family:'Plus Jakarta Sans',sans-serif;
   background:#f3f7ff;
@@ -11,6 +15,7 @@ body{
   justify-content:center;
   min-height:100vh;
   color:#111827;
+  touch-action: manipulation;
 }
 
 #root{
