@@ -1,13 +1,11 @@
 import "./index.css";
+import { requestNotificationPermission }
+from './notifications'
 
 function App() {
   const enableNotifications = async () => {
-    const permission = await Notification.requestPermission();
-
-    if (permission === "granted") {
-      alert("Notifications Enabled");
-    }
-  };
+  await requestNotificationPermission()
+}
 
   const showNotification = (title, body) => {
     if (Notification.permission === "granted") {
